@@ -8,7 +8,7 @@
   - **Process sensors**: Control chemical reactions in petrochemical, pharmaceutical, and semiconductor industries.
   - **Position sensors**: Found in vehicles and aircraft.
   - **Motion sensors**: Used in smartphones, cars, and security systems.
-  - **Ergonomic sensors**: In tablets, PCs, and phones.
+  - **Ergonomic sensors**: In tablets, PCs, and phones.[^1]
   - **Chemical sensors**: Detect fire and toxic gases.
   - **Electrical sensors**: Common in lab instruments and security systems.
 
@@ -29,7 +29,7 @@
 ## 🚗 Sensors in Automobiles
 
 - **Temperature sensors**: Monitor engine combustion, radiator cooling, and cabin comfort.
-- **Pressure sensors**:
+- **Pressure sensors**: 
   - Ensure oil lubrication.
   - Check tire pressure.
 - **Flow sensors**: Monitor air intake for combustion.
@@ -89,3 +89,6 @@
 - These components will be featured throughout the **specialization**.
 - Up next: Overview of **analog and digital interfaces** for integrating sensors and actuators into embedded systems.
 
+---
+
+[^1]: "Ergonomic sensors" is not a formal technical category. It generally refers to human-centered sensors that enhance user-device interaction, such as accelerometers, gyroscopes, proximity sensors, and ambient light sensors in phones, tablets, and PCs.
