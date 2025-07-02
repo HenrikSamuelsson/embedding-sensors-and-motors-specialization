@@ -7,7 +7,7 @@
 
 ---
 
-## 📚 What You'll Learn in Course 1
+## 📚 What You'll Learn in the Course
 
 ### 🔥 Focus Area: Temperature Sensors  
 - Described as the "granddaddy" of all sensors.
