@@ -49,7 +49,9 @@ Some modern sensors include their **own analog front end** and output digital si
 
 ## 🛠️ Microcontroller Integration
 
-The course uses the **Cypress PSoC5 microcontroller**, which integrates many hardware functions:
+The course uses the Cypress PSoC5 microcontroller, specifically the CY8CKIT-059 development kit, which is widely available and affordable. Purchase this kit, as it matches the course requirements and simplifies lab work.
+
+The kit is based on a Cortex-MR microcontroller, which integrates many hardware functions:
 
 - **Built-in ADC**
 - **Amplifiers**
