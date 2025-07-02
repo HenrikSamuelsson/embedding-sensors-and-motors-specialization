@@ -1,4 +1,4 @@
-# 🎓 Course 1 Introduction — Embedding Sensors and Actuators
+# 🎓 Course Introduction
 
 ## 🧠 Who This Course Is For
 
