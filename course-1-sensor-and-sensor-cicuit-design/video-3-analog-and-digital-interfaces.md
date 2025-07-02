@@ -43,7 +43,7 @@ These analog signals must be **converted to digital** form before a microprocess
 
 ## 🧠 Smart Sensor Integration
 
-Some modern sensors include their **own analog front end** and output digital signals directly (e.g., some humidity sensors).
+Some modern sensors include their **own analog front end** and output digital signals directly (a concrete example is some humidity sensors).
 
 ---
 
