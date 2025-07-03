@@ -96,3 +96,40 @@ Let’s analyze each option:
 
 ✅ It has an excellent accuracy of 0.1 °C – 0.2 °C
 
+## Example Question 4
+
+### ❓ Question
+
+What is the Steinhart Hart Equation?  
+*(Select all that apply)*
+
+☐ A cubic polynomial equation that models the highly nonlinear behavior of thermistors  
+☐ A highly nonlinear equation that models the behavior of thermistors    
+☐ An equation that compares the thermistor voltage to the RTD voltage  
+☐ An equation that compares the thermistor voltage to the thermocouple voltage  
+☐ None of the above  
+
+### 📝 Solution
+
+Let’s analyze the options:
+
+  - **❌ A cubic polynomial equation...**  
+  This is **not** the correct description. While the equation may be rearranged to appear polynomial-like, it is **not** a cubic polynomial in the traditional sense.
+
+  - **✅ A highly nonlinear equation that models the behavior of thermistors**  
+  Correct. The Steinhart–Hart equation models the **nonlinear relationship between temperature and resistance** of thermistors using logarithmic terms.
+
+  - **❌ An equation that compares the thermistor voltage to the RTD voltage**  
+  Incorrect. The Steinhart–Hart equation is unrelated to RTDs.
+
+  - **❌ An equation that compares the thermistor voltage to the thermocouple voltage**  
+  Incorrect. It deals only with thermistors.
+
+  - **❌ None of the above**  
+  Incorrect. One option is clearly true
+
+### 🎯 Answer
+
+✅ A highly nonlinear equation that models the behavior of thermistors
+
+
