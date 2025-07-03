@@ -113,7 +113,7 @@ What is the Steinhart Hart Equation?
 
 Let’s analyze the options:
 
-  - **❌ A cubic polynomial equation...**  
+  - **❌ A cubic polynomial equation that models the highly nonlinear behavior of thermistors**  
   This is **not** the correct description. While the equation may be rearranged to appear polynomial-like, it is **not** a cubic polynomial in the traditional sense.
 
   - **✅ A highly nonlinear equation that models the behavior of thermistors**  
