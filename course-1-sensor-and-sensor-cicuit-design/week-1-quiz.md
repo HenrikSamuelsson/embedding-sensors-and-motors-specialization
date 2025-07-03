@@ -81,7 +81,7 @@ Let’s analyze each option:
   Incorrect. Typical NTC thermistor range is around –50 °C to +200 °C. Some may go higher, but 300 °C is beyond normal limits.
 
   - **❌ Common base resistances are 20,000 Ω and 100,000 Ω**  
-  Incorrect. Common base resistances are **2,252 Ω** and **10,000 Ω**. Higher resistances like 30 kΩ or 50 kΩ may be used for higher temperature ranges, but not 100 kΩ.
+  Incorrect. Common base resistances are **2,252 Ω** and **10,000 Ω** .Higher resistances like 30 kΩ or 50 kΩ may be used for extended ranges, but 20 kΩ and 100 kΩ are not standard base resistances.
 
   - **❌ It is made of transistors and memory circuits**  
   Incorrect. NTC thermistors are made from **sintered metal oxides**, not active semiconductor components like transistors.
