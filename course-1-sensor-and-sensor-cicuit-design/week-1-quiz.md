@@ -36,7 +36,7 @@ What advantage does a thermocouple have over the NTC thermistor?
 *(Select all that apply)*
 
 ☐ It is more accurate than the NTC thermistors.  
-☐It can measure higher temperatures than the NTC thermistor.  
+☐ It can measure higher temperatures than the NTC thermistor.  
 ☐ Its curve of temperature vs. voltage is more linear, and can be used without complex calibration.  
 ☐ It can measure lower temperatures than the NTC thermistor.  
 
