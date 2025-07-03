@@ -27,3 +27,35 @@ The quiz most likely expects **Pressure** as the answer, since it’s less commo
 ### 🎯 Answer
 
 **Pressure** (as expected by quiz makers, though interpretation may vary)
+
+## Example Question 2
+
+### ❓ Question
+
+What advantage does a thermocouple have over the NTC thermistor?  
+*(Select all that apply)*
+
+☐ It is more accurate than the NTC thermistors.  
+☐It can measure higher temperatures than the NTC thermistor.  
+☐ Its curve of temperature vs. voltage is more linear, and can be used without complex calibration.  
+☐ It can measure lower temperatures than the NTC thermistor.  
+
+### 📝 Solution
+
+Let’s evaluate each option:
+
+- **❌ It is more accurate than the NTC thermistors:**  
+  Incorrect. Thermistors can achieve accuracies of ±0.1 °C to ±0.2 °C. Thermocouples typically have ~1% accuracy unless individually calibrated.
+
+- **✅ It can measure higher temperatures than the NTC thermistor:**  
+  Correct. Thermocouples can operate well above 800 °C (even over 2000 °C in some cases), whereas thermistors are typically limited to 200 °C.
+
+- **❌ Its curve of temperature vs. voltage is more linear, and can be used without complex calibration:**  
+  Incorrect. Thermocouple output is **non-linear**, and lookup tables (e.g., ITS-90) or interpolation are required. 
+
+- **❌ It can measure lower temperatures than the NTC thermistor:**  
+  Unclear, but not generally true. Thermistors are often used for low-temperature applications (e.g., down to –50 °C). Some thermocouples can handle cryogenic ranges, but thermistors are more accurate and common at low temperatures.
+
+### 🎯 Answer
+
+✅ It can measure higher temperatures than the NTC thermistor.
