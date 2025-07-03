@@ -1,4 +1,4 @@
-# 🌡️ Video 5 – Thermistors
+# 🌡️ Video 5 – Thermistors Basic Facts
 
 ## 📚 Overview
 
