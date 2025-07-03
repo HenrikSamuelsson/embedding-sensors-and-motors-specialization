@@ -59,3 +59,40 @@ Let’s evaluate each option:
 ### 🎯 Answer
 
 ✅ It can measure higher temperatures than the NTC thermistor.
+
+## Example Question 3
+
+### ❓ Question
+
+Which of the following are true statements about an NTC thermistor?  
+*(Select all that apply)*
+
+☐ The range: -100° to 300°C  
+☐ Common base resistances are 20,000 Ω and 100,000 Ω  
+☐ It is made of transistors and memory circuits  
+☐ None of the Above  
+☐ It has an excellent accuracy of 0.1 °C – 0.2 °C  
+
+### 📝 Solution
+
+Let’s analyze each option:
+
+- **❌ The range: -100° to 300°C**  
+  Incorrect. Typical NTC thermistor range is around –50 °C to +200 °C. Some may go higher, but 300 °C is beyond normal limits.
+
+- **❌ Common base resistances are 20,000 Ω and 100,000 Ω**  
+  Incorrect. Common base resistances are **2,252 Ω** and **10,000 Ω**. Higher resistances like 30 kΩ or 50 kΩ may be used for higher temperature ranges, but not 100 kΩ.
+
+- **❌ It is made of transistors and memory circuits**  
+  Incorrect. NTC thermistors are made from **sintered metal oxides**, not active semiconductor components like transistors.
+
+- **❌ None of the Above**  
+  Incorrect. One statement **is** true.
+
+- **✅ It has an excellent accuracy of 0.1 °C – 0.2 °C**  
+  Correct. With proper calibration, thermistors can reach high accuracy in their operational range.
+
+### 🎯 Answer
+
+✅ It has an excellent accuracy of 0.1 °C – 0.2 °C
+
