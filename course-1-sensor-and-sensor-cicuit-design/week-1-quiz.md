@@ -44,16 +44,16 @@ What advantage does a thermocouple have over the NTC thermistor?
 
 Let’s evaluate each option:
 
-- **❌ It is more accurate than the NTC thermistors:**  
+- **❌ It is more accurate than the NTC thermistors.**  
   Incorrect. Thermistors can achieve accuracies of ±0.1 °C to ±0.2 °C. Thermocouples typically have ~1% accuracy unless individually calibrated.
 
-- **✅ It can measure higher temperatures than the NTC thermistor:**  
+- **✅ It can measure higher temperatures than the NTC thermistor.**  
   Correct. Thermocouples can operate well above 800 °C (even over 2000 °C in some cases), whereas thermistors are typically limited to 200 °C.
 
-- **❌ Its curve of temperature vs. voltage is more linear, and can be used without complex calibration:**  
+- **❌ Its curve of temperature vs. voltage is more linear, and can be used without complex calibration.**  
   Incorrect. Thermocouple output is **non-linear**, and lookup tables (e.g., ITS-90) or interpolation are required. 
 
-- **❌ It can measure lower temperatures than the NTC thermistor:**  
+- **❌ It can measure lower temperatures than the NTC thermistor.**  
   Unclear, but not generally true. Thermistors are often used for low-temperature applications (e.g., down to –50 °C). Some thermocouples can handle cryogenic ranges, but thermistors are more accurate and common at low temperatures.
 
 ### 🎯 Answer
@@ -67,30 +67,30 @@ Let’s evaluate each option:
 Which of the following are true statements about an NTC thermistor?  
 *(Select all that apply)*
 
-☐ The range: -100° to 300°C  
-☐ Common base resistances are 20,000 Ω and 100,000 Ω  
-☐ It is made of transistors and memory circuits  
-☐ None of the Above  
+☐ The range: -100° to 300°C    
+☐ Common base resistances are 20,000 Ω and 100,000 Ω    
+☐ It is made of transistors and memory circuits    
 ☐ It has an excellent accuracy of 0.1 °C – 0.2 °C  
+☐ None of the above  
 
 ### 📝 Solution
 
 Let’s analyze each option:
 
-- **❌ The range: -100° to 300°C**  
+  - **❌ The range: -100° to 300°C**  
   Incorrect. Typical NTC thermistor range is around –50 °C to +200 °C. Some may go higher, but 300 °C is beyond normal limits.
 
-- **❌ Common base resistances are 20,000 Ω and 100,000 Ω**  
+  - **❌ Common base resistances are 20,000 Ω and 100,000 Ω**  
   Incorrect. Common base resistances are **2,252 Ω** and **10,000 Ω**. Higher resistances like 30 kΩ or 50 kΩ may be used for higher temperature ranges, but not 100 kΩ.
 
-- **❌ It is made of transistors and memory circuits**  
+  - **❌ It is made of transistors and memory circuits**  
   Incorrect. NTC thermistors are made from **sintered metal oxides**, not active semiconductor components like transistors.
 
-- **❌ None of the Above**  
-  Incorrect. One statement **is** true.
-
-- **✅ It has an excellent accuracy of 0.1 °C – 0.2 °C**  
+  - **✅ It has an excellent accuracy of 0.1 °C – 0.2 °C**  
   Correct. With proper calibration, thermistors can reach high accuracy in their operational range.
+
+  - **❌ None of the Above**  
+  Incorrect. One statement **is** true.
 
 ### 🎯 Answer
 
