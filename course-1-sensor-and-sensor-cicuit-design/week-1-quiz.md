@@ -132,4 +132,36 @@ Let’s analyze the options:
 
 ✅ A highly nonlinear equation that models the behavior of thermistors
 
+## Example Question 5
+
+### ❓ Question
+
+Which fact is **not true** about RTDs?  
+*(Select one)*
+
+⚪ They have a temperature coefficient of resistance (TCR) of 3.85 Ω/Ω/°C  
+⚪ DIN/IEC 60751 is the global standard for RTDs  
+⚪ They have a range of –200 °C to 800 °C  
+⚪ The Class A resistance tolerance is smaller than the Class B resistance tolerance  
+⚪ They have a nearly linear temperature vs. resistance curve  
+
+### 📝 Solution
+
+Let’s evaluate each statement:
+
+- **❌ They have a TCR of 3.85 Ω/Ω/°C**  
+  Not true. The standard **TCR is 0.00385 Ω/Ω/°C**, not 3.85. This value is often expressed as 3850 ppm/°C.
+
+- ✅ DIN/IEC 60751 is indeed the international standard that defines RTD characteristics.
+
+- ✅ RTDs typically operate in the range of –200 °C to 800 °C.
+
+- ✅ Class A has **tighter** (smaller) tolerance than Class B — this is correct.
+
+- ✅ RTDs have a **nearly linear** temperature vs. resistance characteristic, especially compared to thermistors.
+
+### 🎯 Answer
+
+It is **not true** that RTDs have a temperature coefficient of resistance (TCR) of 3.85 Ω/Ω/°C
+
 
