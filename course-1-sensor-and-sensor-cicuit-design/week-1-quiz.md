@@ -219,3 +219,41 @@ Other types:
 
 ✅ Type K
 
+## Example Question 9
+
+### ❓ Question
+
+In what temperature measurement applications are thermocouples used?  
+*(Select all that apply)*
+
+☐ When it is acceptable to do periodic calibration checks  
+☐ When accuracy of worse than 1% is acceptable  
+☐ Measuring temperatures above 1400 °C  
+☐ Where a large number of measurement points are needed, and you need to keep the total cost of the sensors down  
+☐ None of the above  
+
+### 📝 Solution
+
+Let’s examine each option:
+
+- **✅ When it is acceptable to do periodic calibration checks**  
+  Correct — thermocouples tend to drift over time and often require recalibration.
+
+- **✅ When accuracy of worse than 1% is acceptable**  
+  Correct — typical thermocouple accuracy is around 1% of the reading.
+
+- **✅ Measuring temperatures above 1400 °C**  
+  Correct — some thermocouples (e.g., Type C) can measure up to ~2300 °C.
+
+- **✅ Where a large number of measurement points are needed, and you need to keep the total cost of the sensors down**  
+  Correct — thermocouples are inexpensive, making them ideal for high-channel-count applications.
+
+- **❌ None of the above**  
+  Incorrect — thermocouples are widely used in several relevant applications.
+
+### 🎯 Answer
+
+- ✅ When it is acceptable to do periodic calibration checks  
+- ✅ When accuracy of worse than 1% is acceptable  
+- ✅ Measuring temperatures above 1400 °C  
+- ✅ Where a large number of measurement points are needed, and you need to keep the total cost of the sensors down  
