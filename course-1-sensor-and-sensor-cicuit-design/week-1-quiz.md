@@ -164,4 +164,27 @@ Let’s evaluate each statement:
 
 It is **not true** that RTDs have a temperature coefficient of resistance (TCR) of 3.85 Ω/Ω/°C
 
+## Example Question 7
 
+### ❓ Question
+
+What happens if you don’t perform cold junction compensation in a thermocouple circuit?  
+*(Select one)*
+
+⚪ The temperature reading will be inaccurate because you have no way to compensate the circuit for thermoelectric voltages created at the junctions of dissimilar metals.  
+⚪ The accuracy will be improved because you are doing away with an unnecessary process measurement step  
+⚪ Nothing. The reading will be accurate anyway  
+⚪ The temperature reading will be inaccurate because the ice bath reference temperature will not be maintained  
+⚪ The temperature reading will be inaccurate because the table lookup curve for thermoelectric voltage vs. temperature will be thrown off  
+
+### 📝 Solution
+
+- **✅ The temperature reading will be inaccurate because you have no way to compensate the circuit for thermoelectric voltages created at the junctions of dissimilar metals**. — Correct.
+- **❌  The accuracy will be improved because you are doing away with an unnecessary process measurement step** — Incorrect. Thermocouples measure the **difference** in temperature between two junctions, so failing to compensate for the reference (cold) junction leads to incorrect results.
+- **❌ Nothing. The reading will be accurate anyway** — Incorrect. Se discussion about accuracy above.
+- **❌ Ice bath reference not maintained** — This is historically true, but not relevant if using modern **cold junction compensation (CJC)** methods.
+- **❌ Table lookup curve being thrown off** — Not directly correct. The lookup table assumes **known reference junction temperature**, so the inaccuracy is more fundamental than the curve.
+
+### 🎯 Answer
+
+✅ The temperature reading will be inaccurate because you have no way to compensate the circuit for thermoelectric voltages created at the junctions of dissimilar metals.
