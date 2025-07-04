@@ -257,3 +257,53 @@ Let’s examine each option:
 - ✅ When accuracy of worse than 1% is acceptable  
 - ✅ Measuring temperatures above 1400 °C  
 - ✅ Where a large number of measurement points are needed, and you need to keep the total cost of the sensors down  
+
+## Example Question 9
+
+### ❓ Question
+
+You are using a 2252 Ω thermistor, β = 3940, and you measure a resistance of 672.5 Ω.  
+What is the temperature in °C that you are measuring?  
+*(Type in a one-decimal number for your answer)*
+
+### 📝 Solution
+
+We use the **Beta parameter equation**:
+
+    1/T = 1/T₀ + (1/β) * ln(R/R₀)
+
+Where:  
+- `T` = temperature in Kelvin  
+- `T₀` = 298.15 K (25 °C)  
+- `R` = 672.5 Ω  
+- `R₀` = 2252 Ω  
+- `β` = 3940
+
+**Step-by-step:**
+
+1. Compute the ratio:
+    
+       R / R₀ = 672.5 / 2252 ≈ 0.2986
+
+2. Take the natural log:
+
+       ln(R / R₀) ≈ ln(0.2986) ≈ –1.208
+
+3. Plug into the equation:
+
+       1/T = 1/298.15 + (1/3940) * (–1.208)
+           ≈ 0.003354 + (–0.0003065)
+           ≈ 0.0030475
+
+4. Invert to find temperature:
+
+       T ≈ 1 / 0.0030475 ≈ 328.1 K
+
+5. Convert to °C:
+
+       T(°C) = 328.1 – 273.15 ≈ **55 °C**
+
+### 🎯 Answer
+
+**55 °C**
+
