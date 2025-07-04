@@ -1,6 +1,6 @@
 # Sensor and Sensor Circuit Design: Quiz Week 1
 
-## Example question 1
+## Question 1
 
 ### ❓ Question
 
@@ -28,7 +28,7 @@ The quiz most likely expects **Pressure** as the answer, since it’s less commo
 
 **Pressure** (as expected by quiz makers, though interpretation may vary)
 
-## Example Question 2
+## Question 2
 
 ### ❓ Question
 
@@ -60,7 +60,7 @@ Let’s evaluate each option:
 
 ✅ It can measure higher temperatures than the NTC thermistor.
 
-## Example Question 3
+## Question 3
 
 ### ❓ Question
 
@@ -96,7 +96,7 @@ Let’s analyze each option:
 
 ✅ It has an excellent accuracy of 0.1 °C – 0.2 °C
 
-## Example Question 4
+## Question 4
 
 ### ❓ Question
 
@@ -132,7 +132,7 @@ Let’s analyze the options:
 
 ✅ A highly nonlinear equation that models the behavior of thermistors
 
-## Example Question 5
+## Question 5
 
 ### ❓ Question
 
@@ -164,7 +164,40 @@ Let’s evaluate each statement:
 
 It is **not true** that RTDs have a temperature coefficient of resistance (TCR) of 3.85 Ω/Ω/°C
 
-## Example Question 7
+## Question 6
+
+### ❓ Question
+
+Suppose we include the lead resistance in the calculation of temperature for an RTD.  
+If:  
+- R₃ = 5000 Ω  
+- Rₐ = 50 Ω  
+- V₀ = 3 V  
+- V = 6.5 V  
+
+What is R?  
+(Type in a one-decimal number.)
+
+### 📝 Solution
+
+We use the formula derived in the lecture slides:
+
+    R = (R₃ + Rₐ) × (1 / (V₀ / V + 1/2) - 1) - Rₐ
+
+Step-by-step:
+
+1. V₀ / V = 3 / 6.5 ≈ 0.4615  
+2. Add 0.5: 0.4615 + 0.5 = 0.9615  
+3. Take the reciprocal: 1 / 0.9615 ≈ 1.04  
+4. Subtract 1: 1.04 - 1 = 0.04  
+5. Multiply by (R₃ + Rₐ): 0.04 × (5000 + 50) = 0.04 × 5050 = 202  
+6. Subtract Rₐ: 202 - 50 = **152 Ω**
+
+### 🎯 Answer
+
+152.0 Ω
+
+## Question 7
 
 ### ❓ Question
 
@@ -189,7 +222,7 @@ What happens if you don’t perform cold junction compensation in a thermocouple
 
 ✅ The temperature reading will be inaccurate because you have no way to compensate the circuit for thermoelectric voltages created at the junctions of dissimilar metals.
 
-## Example Question 8
+## Question 8
 
 ### ❓ Question
 
@@ -219,7 +252,7 @@ Other types:
 
 ✅ Type K
 
-## Example Question 9
+## Question 9
 
 ### ❓ Question
 
@@ -258,7 +291,7 @@ Let’s examine each option:
 - ✅ Measuring temperatures above 1400 °C  
 - ✅ Where a large number of measurement points are needed, and you need to keep the total cost of the sensors down  
 
-## Example Question 9
+## Question 10
 
 ### ❓ Question
 
@@ -305,5 +338,5 @@ Where:
 
 ### 🎯 Answer
 
-**55 °C**
+55 °C
 
