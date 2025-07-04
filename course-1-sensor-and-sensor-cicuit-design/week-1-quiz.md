@@ -30,33 +30,35 @@ The quiz most likely expects **Pressure** as the answer, since it’s less commo
 
 ## Example Question 2
 
-###❓ Question
+### ❓ Question
 
 What advantage does a thermocouple have over the NTC thermistor?  
-(Select all that apply)
+*(Select all that apply)*
 
-☑ It can measure higher temperatures than the NTC thermistor.  
-☑ Its curve of temperature vs. voltage is more linear, and can be used without complex calibration.  
-☐ It can measure lower temperatures than the NTC thermistor  
-☐ It is more accurate than the NTC thermistors.
-
-###📝 Solution
-
-Let’s evaluate each statement:
-
--	✅ It can measure higher temperatures than the NTC thermistor  
-Correct. Thermocouples (e.g., Type C) can measure up to 2300 °C, far beyond the range of typical NTC thermistors (up to ~200 °C).
--	✅ Its curve of temperature vs. voltage is more linear, and can be used without complex calibration  
-Considered correct in quiz context. Thermocouples are less nonlinear than NTC thermistors and can be approximated as linear over small spans, requiring less complex calibration.
--	❌ It can measure lower temperatures than the NTC thermistor  
-Incorrect. While some thermocouples (e.g., Type T) operate at cryogenic temperatures, NTCs also perform well at low temps. The "advantage" is ambiguous and likely not correct per quiz intent.
--	❌ It is more accurate than the NTC thermistors  
-Incorrect. NTC thermistors can achieve high accuracy (±0.1 °C to ±0.2 °C). Thermocouples are typically accurate to about ±1% of reading and require periodic recalibration.
-
-## 🎯 Answer
-
+☐ It is more accurate than the NTC thermistors.  
+✅ It can measure lower temperatures than the NTC thermistor  
 ✅ It can measure higher temperatures than the NTC thermistor.  
-✅ Its curve of temperature vs. voltage is more linear, and can be used without complex calibration.  
+☐ Its curve of temperature vs. voltage is more linear, and can be used without complex calibration.  
+
+### 📝 Solution
+
+- **❌ It is more accurate than the NTC thermistors**  
+  Thermistors generally offer better accuracy, particularly in their typical operating range.
+
+- **✅ It can measure lower temperatures than the NTC thermistor**  
+  Thermocouples such as **Type T** can operate reliably at extremely low temperatures (e.g. –200 °C), which is below the limit of most NTC thermistors.
+
+- **✅ It can measure higher temperatures than the NTC thermistor**  
+  Thermocouples (e.g., **Type K**, **Type C**) are widely used for measuring very high temperatures (up to ~2300 °C).
+
+- **❌ Its curve of temperature vs. voltage is more linear, and can be used without complex calibration**  
+  This is incorrect. Thermocouple voltage–temperature curves are **non-linear**, and **cold junction compensation** plus lookup tables (e.g. ITS-90) are required.
+
+### 🎯 Answer
+
+✅ It can measure lower temperatures than the NTC thermistor  
+✅ It can measure higher temperatures than the NTC thermistor
+
 
 ## Question 3
 
@@ -193,7 +195,7 @@ Step-by-step:
 
 ### 🎯 Answer
 
-152.0 Ω
+152 Ω
 
 ## Question 7
 
