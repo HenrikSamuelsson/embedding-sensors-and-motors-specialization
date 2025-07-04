@@ -286,10 +286,10 @@ Let’s examine each option:
 
 ### 🎯 Answer
 
-- ✅ When it is acceptable to do periodic calibration checks  
-- ✅ When accuracy of worse than 1% is acceptable  
-- ✅ Measuring temperatures above 1400 °C  
-- ✅ Where a large number of measurement points are needed, and you need to keep the total cost of the sensors down  
+✅ When it is acceptable to do periodic calibration checks  
+✅ When accuracy of worse than 1% is acceptable  
+✅ Measuring temperatures above 1400 °C  
+✅ Where a large number of measurement points are needed, and you need to keep the total cost of the sensors down  
 
 ## Question 10
 
