@@ -188,3 +188,34 @@ What happens if you don’t perform cold junction compensation in a thermocouple
 ### 🎯 Answer
 
 ✅ The temperature reading will be inaccurate because you have no way to compensate the circuit for thermoelectric voltages created at the junctions of dissimilar metals.
+
+## Example Question 8
+
+### ❓ Question
+
+Which is the most common thermocouple in use?  
+*(Select one)*
+
+⚪ Type J  
+⚪ Type T  
+⚪ Type E  
+⚪ Type N  
+⚪ Type K  
+
+### 📝 Solution
+
+- **Type K** is the most widely used thermocouple due to:
+  - Its **wide temperature range** (up to ~1250 °C)
+  - **Low cost**
+  - **Good stability** and **availability**
+
+Other types:
+- **Type J** – Iron/Constantan, limited upper range.
+- **Type T** – Excellent for very low temperatures.
+- **Type E** – Higher voltage output, but less common.
+- **Type N** – Better high-temp stability, used in specialized applications.
+
+### 🎯 Answer
+
+✅ Type K
+
