@@ -120,8 +120,72 @@ Explain how temperature is measured in industrial process systems and highlight 
 
 RTDs like Pt100 are widely used in process automation due to their robustness and precision. Solutions are available for standard and specialized applications.
 
+## 📺 Video Reading: Thermocouple Tutorial (ControlEngTV)
 
-### 🔗 References
+### 🎓 Introduction
 
-- RimstarOrg, *Thermistors for measuring temperature*, YouTube video, https://www.youtube.com/watch?v=9opuvLXAetI (accessed 2025-07-04)
-- Endress+Hauser *Temperature measurement in the process industry*, Youtube video, https://www.youtube.com/watch?v=yQvRqtozC6g, (Accessed2025-07-04)
+- Presented by Peter Wander, Process Industries Editor at *Control Engineering*.
+- Thermocouples are a popular and sometimes debated topic in process instrumentation.
+- Demonstrates how thermocouples can be made and used with simple materials.
+
+---
+
+### 🔧 Thermocouple Basics
+
+- **Thermocouple construction**: Two dissimilar metals joined together form a junction that generates a voltage when heated.
+- This voltage is **very small**, so sensitive instruments (e.g., digital multimeters with mV scale) are needed.
+
+---
+
+### 🔬 DIY Thermocouple Example
+
+- **Materials**: Steel wire and copper wire twisted together.
+- **Measurement**: Connected to a digital VOM (voltmeter) with a 0–300 mV range.
+- **Heating**: A propane torch applied heat to the junction.
+- **Observation**:
+  - Voltage increased when heated.
+  - Voltage dropped as the wire cooled — demonstrating the thermoelectric effect.
+
+---
+
+### 🧪 Type T Thermocouple Demonstration
+
+- **Setup**: Real type T thermocouple wires in a crockpot of water.
+  - Red wire: copper-nickel alloy.
+  - Blue wire: copper.
+- **Voltage increases** as the water heats (e.g., from 1.1 mV to 4.0 mV).
+- Junction was in the crockpot, and the reference end in a **glass of ice water**.
+
+---
+
+### 🌡️ Cold Junction Compensation
+
+- A thermocouple measures **temperature difference** between two junctions:
+  - **Hot junction**: In the measurement zone (e.g., boiling water).
+  - **Cold (reference) junction**: At known temperature (e.g., ice bath).
+- To obtain **absolute temperature**, you must know the temperature at the reference junction.
+- In field instruments, cold junction compensation is done using internal temperature sensors (e.g., thermistors).
+
+---
+
+### 🧾 Voltage vs. Temperature
+
+- Example: With one junction in boiling water and the other in ice:
+  - Expected: 4.253 mV for Type T at 100 °C.
+  - Measured: ~4.0 mV → within expected range considering equipment limitations.
+- As the hot junction cooled, voltage decreased — correlates with lower temperature.
+
+---
+
+### 🧠 Key Takeaways
+
+- Thermocouples exploit the Seebeck effect — different metals generate different voltages when heated.
+- You need **cold junction compensation** to interpret readings accurately.
+- DIY setups are useful for learning but impractical for industrial use.
+- Real-world systems use transmitters with built-in reference measurement and signal conditioning.
+
+## 🔗 References
+
+- RimstarOrg, *[Thermistors for measuring temperature](https://www.youtube.com/watch?v=9opuvLXAetI)*, YouTube video, (accessed 2025-07-04)
+- Endress+Hauser, [*Temperature measurement in the process industry*](https://www.youtube.com/watch?v=yQvRqtozC6g ), YouTube video, (accessed 2025-07-04)
+- ControlEngTV, *[Thermocouple Tutorial](https://www.youtube.com/watch?v=AubXDi6AD2M)*, YouTube video, (accessed 2025-07-04)
